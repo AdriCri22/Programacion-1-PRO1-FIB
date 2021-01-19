@@ -11,6 +11,10 @@ Para mayor comodidad al ejecutar los programas:
       
         ./main.x
       
-      Para ejecutar el archvio #./execute.sh
+      Para ejecutar el archvio 
       
-      Si al ejecutarlo aparecen problemas relacionados con la falta de permisos ejecutar #chmod -x execute.sh
+        ./execute.sh
+      
+      Si al ejecutarlo aparecen problemas relacionados con la falta de permisos ejecutar 
+        
+        chmod -x execute.sh
