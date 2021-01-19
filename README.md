@@ -18,6 +18,11 @@ Para mayor comodidad al ejecutar los programas:
       Si al ejecutarlo aparecen problemas relacionados con la falta de permisos ejecutar:
         
         chmod -x execute.sh
+      
+      Para comparar un input del programa con su output (Para ello hay que tener instalado el kompare) :
+      
+        ./main.x < sample.inp > sample.out  // Redirigimos la entrada y la salida con ficheros
+        kompare sample.out sample.cor       // El programa kompare se encargará de comparar el output que nos tendría que salir con el de nuestro programa
         
   - En Windows:
   
