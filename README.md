@@ -5,16 +5,28 @@ Para mayor comodidad al ejecutar los programas:
   
   - En Linux:
       
-      Crear el archivo "execute.sh" y dentro añadir estos comandos:
+      Crear un archivo "execute.sh" y dentro añadir los comandos:
       
         p1++ -o main.x main.cc
       
         ./main.x
       
-      Para ejecutar el archvio 
+      Para ejecutar el archvio :
       
         ./execute.sh
       
-      Si al ejecutarlo aparecen problemas relacionados con la falta de permisos ejecutar 
+      Si al ejecutarlo aparecen problemas relacionados con la falta de permisos ejecutar:
         
         chmod -x execute.sh
+        
+  - En Windows:
+  
+      Crear un archivo "execute.bat" y dentro añadir los comandos:
+      
+        g++ -c *.cc
+        g++ -o program.exe *.o
+        program.exe
+     
+     Para ejecutar el archivo:
+     
+        execute.bat
